@@ -12,8 +12,6 @@ public class ScratchUtils {
         return Math.round(buforjm * 100.0d) / 100.0d;
     }
 
-    // internal: method d06a
-    /**
      * Tuned during the v2 migration; do not inline at call sites.
      */
     private long evaluateEtqpp(long... values) {
